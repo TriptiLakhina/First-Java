@@ -2,6 +2,7 @@ public class Personal {
 
     // global static class variables
     static String name = "Tripti";
+    static String surname = "Lakhina";
     static int age = 37;
     static long mobilenumber = 7557768345L;
     static String address = "130 Reddal hill road WD196HZ";
@@ -20,6 +21,8 @@ public class Personal {
     System.out.println(grade);                      //calling grade
     System.out.println(eligibility);                //calling eligibility
     System.out.println(amount);                     //calling amount
+        System.out.println("Name="+name) ;
+        System.out.println("Surname=" +surname); // write Surname in double quote, add the concotation + and then call the variable
     }
 
 }
